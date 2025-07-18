@@ -60,3 +60,9 @@ function showDesserts() {
 }
 showDesserts();
 
+//Questions answered:
+//1. Syntax issue with forEach? think of it as array.forEach(function(item) { code to run for each item}
+//So, this code runs for each dessert in the desserts array. Set up a button, created text content to be dessert name,
+//  and created its click event. Inside click event for each item, check inStock value. 
+
+//2. Using dessert.name and dessert.inStock dessert.price to grab the value from the key
