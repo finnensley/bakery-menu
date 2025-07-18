@@ -11,34 +11,3 @@ How to use a traditional function and a forEach loop to loop through an array
 How to use if/else statements to check a condition (like whether a dessert is in stock)
 How to insert new elements into the page using .appendChild()
 
-Instructions
-
-HTML
-
-Create a new HTML5 file.
-Inside the <body>, add:
-A <h1> element that says Bakery Menu.
-A <div> with the id menu-buttons where the JavaScript will insert buttons for each dessert.
-A <p> element with the id order-summary that will show the message for the selected dessert.
-At the bottom of the <body>, add the following script tag:
-<script src="script.js"></script>
-
-
-JavaScript
-
-Create a JavaScript file called script.js.
-At the top, create an array named desserts. Each item in the array should be an object with 3 properties:
-name: a string, the name of the dessert (like "Cupcake")
-price: a number, how much it costs (like 3)
-inStock: a boolean, true if available, false if sold out
-Use document.getElementById("menu-buttons") and document.getElementById("order-summary") to select the container and output areas.
-Write a forEach loop that loops through each dessert.
-Inside the loop:
-Create a <button> element using document.createElement("button")
-Use .textContent to set the button’s label to the dessert’s name.
-Add an event listener to the button with .addEventListener("click", function() {...})
-Inside this function, use if/else:
-If the dessert is in stock (dessert.inStock === true), update order-summary to say “You selected: Cupcake ($3)”
-If the dessert is not in stock, update order-summary to say “Sorry, Cupcake is sold out.”
-Finally, use .appendChild() to add the button to the menu-buttons div.
-
