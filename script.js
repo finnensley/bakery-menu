@@ -56,29 +56,7 @@ function showDesserts() {
             }
         });
         menuBtn.appendChild(button);
-        // const lemonBtn = document.createElement("button");
-        // lemonBtn.textContent = "Lemon Tart";
-        // lemonBtn.addEventListener("click", Stock);
-        
-
-        // const appleBtn = document.createElement("button");
-        // appleBtn.textContent = "Apple Pie";
-        // appleBtn.addEventListener("click", Stock);
-
-        // const chocolateBtn = document.createElement("button");
-        // chocolateBtn.textContent = "Chocolate Cake";
-        // chocolateBtn.addEventListener("click", Stock);
-
-        // const carrotBtn = document.createElement("button");
-        // carrotBtn.textContent = "Carrot Cake";
-        // carrotBtn.addEventListener("click", Stock);
 });
 }
 showDesserts();
-
-// STEP 7: Inside the function, check if the dessert is in stock using if/else
-// If inStock is true, show “You selected: [Dessert] ($[Price])”
-// If inStock is false, show “Sorry, [Dessert] is sold out.”
-
-// STEP 8: Add the button to the div with appendChild
 
